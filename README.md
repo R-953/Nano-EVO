@@ -57,10 +57,10 @@ Personal Browser Sidebar Extension
 - Taking *Google Gemini* as an example, you need to log into your account in *[Google AI Studio](https://aistudio.google.com)*, click *Get API Key* in the bottom-left corner, click **Create API key** in the top-right corner, complete the steps to **name your project** and **set up billing information**, and then copy and paste the *API Key* into the input box under the model settings;
 - Supports **text selection translation** into multiple languages. By default, it currently translates into **Simplified Chinese**, **American English**, **Canadian French**, and **Japanese**. You can modify the prompts in the JS file to add or remove languages output during translation;
 - Supports **webpage summarization** of the current page. You can **ask questions** about the current webpage in the input box, or **leave it blank and send directly**. If the input is empty, the LLM will **automatically extract** the main content of the current webpage and **concisely summarize** its outline;
-- Supports **exporting chat history** to *Markdown* format and features an **incognito/self-destruct (burn-after-reading)** function. When enabled, closing the sidebar will **automatically clear all current chat history**. By default, closing the sidebar will not **automatically delete the chat history**, though you can still choose to delete it manually;
+- Supports **exporting chat history** 到 *Markdown* format and features an **incognito/self-destruct (burn-after-reading)** function. When enabled, closing the sidebar will **automatically clear all current chat history**. By default, closing the sidebar will not **automatically delete the chat history**, though you can still choose to delete it manually;
 - Supports file input for **certain formats**, which also depends on the **cloud LLM model**. If using a **text-only model**, image inputs will not be accepted. It is highly recommended to prioritize sideloading **multimodal LLMs** that support image input, although currently only **plain text format** file input is supported.
 
-## Installation
+## 安装
 > [!NOTE]
 > This extension currently only supports manual installation by **loading unpacked extensions** or **importing a zip archive**.
 <p> 
@@ -73,7 +73,7 @@ Personal Browser Sidebar Extension
 ## Disclaimer
 
 ### Please note: This project is intended for personal testing and coding study only.
-### Please note: This project is licensed under the [MIT License](https://github.com/R-953/Nano-EVO/blob/main/MIT%20License). Licensees must include the above copyright notice and this permission notice in all copies or substantial portions of the Software. Running this project as a licensee or user is deemed equivalent to having fully and thoroughly read this disclaimer, the original MIT License, and the privacy policies and disclaimers of the respective cloud service providers.
+### Please note: This project is licensed under the [MIT License](https://github.com/R-953/Nano-EVO/blob/main/LICENSE). Licensees must include the above copyright notice and this permission notice in all copies or substantial portions of the Software. Running this project as a licensee or user is deemed equivalent to having fully and thoroughly read this disclaimer, the original MIT License, and the privacy policies and disclaimers of the respective cloud service providers.
 ### Please note: This project will not read or execute any local files other than those strictly required to run the project, except for:
 - Code essential for running this project
 - LLM files sideloaded on your local device
