@@ -1,7 +1,10 @@
 # Nano-EVO
 
-自用浏览器侧边栏扩展程序
+<p align="center">
+    <img src="https://github.com/R-953/Nano-EVO/blob/main/Extension/icon.jpg">
+</p>
 
+自用浏览器侧边栏扩展程序
 ## 基于Javascript编写，添加浏览器原生侧边栏，同时支持本地大模型和Gemini云服务
 
 <p align="center">
@@ -140,4 +143,4 @@
 - *Moonshot Kimi* 是月之暗面科技有限公司的注册商标，*Kimi* 是其推出的支持超长文本处理的智能助手；
 - *Anthropic Claude* 是 *Anthropic PBC* 的注册商标，*Claude* 是 *Anthropic* 推出的安全、诚实、高性能的 *AI* 语言模型；
 - *OpenAI GPT* 是 *OpenAI Inc.* 的注册商标，*GPT* 系列是 *OpenAI* 推出的行业领先的多模态大语言模型；
-- *Z GLM* 是北京智谱华章科技有限公司的注册商标，*GLM* 是智谱 *AI* 推出的新一代认知大模型系列
+- *Z GLM* 是北京智谱华章科技有限公司的注册商标，*GLM* 是智谱 *AI* 推出的新一代认知大模型系列。
