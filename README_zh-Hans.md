@@ -1,9 +1,20 @@
 # Nano-EVO
+
 自用浏览器侧边栏扩展程序
+
 ## 基于Javascript编写，添加浏览器原生侧边栏，同时支持本地大模型和Gemini云服务
 
-<h3> 兼容浏览器：</h3>
-<p>
+<p align="center">
+  <a href="../README.md">英文</a> • 
+  <a href="../README_fr.md">Français</a> • 
+  <a href="../README_ja.md">日本語</a> • 
+  <a href="../README_zh_Hans.md">简体中文</a> • 
+  <a href="../README_zh-Hant.md">繁體中文</a> • 
+</p>
+
+<h3 align="center"> 兼容浏览器：</h3>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Chromium-%E2%88%9A-green?style=for-the-badge">
   <img src="https://img.shields.io/badge/Chrome-%E2%88%9A-greem?style=for-the-badge">
   <img src="https://img.shields.io/badge/Edge-%E2%88%9A-green?style=for-the-badge">
@@ -13,9 +24,11 @@
   <img src="https://img.shields.io/badge/Firefox-%C3%97-red?style=for-the-badge">
   <img src="https://img.shields.io/badge/etc.-white?style=for-the-badge">
 </p>
-<h3> 兼容本地应用：</h3> 
-<p>
-  <img src="https://img.shields.io/badge/Ollama GUI-Fully Compatibly-brightgreen">
+
+<h3 align="center"> 兼容本地应用：</h3> 
+
+<p align="center">
+    <img src="https://img.shields.io/badge/Ollama GUI-Fully Compatibly-brightgreen">
   <img src="https://img.shields.io/badge/LM Studio-Fully Compatibly-brightgreen">
   <img src="https://img.shields.io/badge/GPT4All-Fully Compatibly-brightgreen">
   <img src="https://img.shields.io/badge/Cherry Studio-Fully Compatibly-brightgreen">
@@ -27,8 +40,10 @@
   <img src="https://img.shields.io/badge/Local AI-Non Compatibly-red">
   <img src="https://img.shields.io/badge/etc.-white">
 </p>
-<h3> 兼容云服务：</h3> 
-<p>
+
+<h3 align="center"> 兼容云服务：</h3> 
+
+<p align="center">
   <img src="https://img.shields.io/badge/Google Gemini-Fully Compatibly-brightgreen?style=for-the-badge">
   <img src="https://img.shields.io/badge/Meta Muse-Partial Compatibly-yellow?style=for-the-badge">
   <img src="https://img.shields.io/badge/xAI Grok-Partial Compatibly-yellow?style=for-the-badge">
@@ -80,7 +95,7 @@
 ## 安装方式
 > [!IMPORTANT]
 > 本扩展目前仅支持通过 **加载未解压的扩展程序** 以及 **导入压缩包** 的方式手动安装。
-<p> 
+<p align="center">
   <img src="https://img.shields.io/badge/Chrome Web Store-%C3%97-red?">
   <img src="https://img.shields.io/badge/Edge Addons-%C3%97-red?">
   <img src="https://img.shields.io/badge/Firefox Addons-%C3%97-red?">
