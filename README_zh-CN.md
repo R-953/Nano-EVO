@@ -63,6 +63,8 @@
 - 支持通过 *API Key* 调用 **部分云端模型**；
 > [!NOTE]
 > 需要生成一段可用的 API 密钥，目前仅支持 *Google Gemini*，通过 *API Key* 调用的模型包括但不限于 *Google Gemini 3.1 Flash Lite*、*Google Gemini 3.5 Flash*，当前仅适配了两者，可在JS文件中修改调用链接中的参数使用包含但不限于 *Google Gemini 3.1 Pro* 等模型，**[此页面](https://ai.google.dev/gemini-api/docs/rate-limits)** 显示了所有支持的模型 ；
+
+> [!IMPORTANT]
 > 以 *Google Gemini* 为例，需要在 *[Google AI Studio](https://aistudio.google.com)* 中登录自己的账号，点击左下角 *Get API Key*，右上角 **创建 API 密钥** ，完成 **为项目命名** 和 **设置结算信息** 后，即可复制 *API Key* 粘贴到模型下的输入框中；
 - 支持 **划词翻译** 成多种语言，目前默认翻译成 **简体中文**、**美式英语**、**加拿大法语** 和 **日本語**；
 > 可在JS文件中修改提示词，增加或删除翻译时输出的语言；
@@ -76,7 +78,7 @@
 > 在使用除 *Brave* 外的 *Chromium* 浏览器时，浏览器会默认调用 *Google Network Voices* 输出朗读，由于 *Brave* 浏览器默认 **删除** 了此服务，需要在电脑本地 **完整部署** 四种语言包后才能支持除 **美式英语** 外的另三种语言。
 
 ## 安装方式
-> [!NOTE]
+> [!IMPORTANT]
 > 本扩展目前仅支持通过 **加载未解压的扩展程序** 以及 **导入压缩包** 的方式手动安装。
 <p> 
   <img src="https://img.shields.io/badge/Chrome Web Store-%C3%97-red?">
