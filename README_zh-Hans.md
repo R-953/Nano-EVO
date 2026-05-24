@@ -5,10 +5,9 @@
 ## 基于Javascript编写，添加浏览器原生侧边栏，同时支持本地大模型和Gemini云服务
 
 <p align="center">
-  <a href="../README.md">英文</a> • 
+  <a href="../README.md">English</a> •  
   <a href="../README_fr.md">Français</a> • 
   <a href="../README_ja.md">日本語</a> • 
-  <a href="../README_zh_Hans.md">简体中文</a> • 
   <a href="../README_zh-Hant.md">繁體中文</a> • 
 </p>
 
