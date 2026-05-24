@@ -1,9 +1,19 @@
 # Nano-EVO
+
 Personal Browser Sidebar Extension
+
 ## Written in JavaScript, this extension adds a native browser sidebar while supporting both local LLMs and the Gemini cloud service.
 
-<h3> Compatible Browsers:</h3>
-<p>
+<p align="center">
+  <a href="../README_fr.md">Français</a> • 
+  <a href="../README_ja.md">日本語</a> • 
+  <a href="../README_zh_Hans.md">简体中文</a> • 
+  <a href="../README_zh-Hant.md">繁體中文</a> • 
+</p>
+
+<h3 align="center"> Compatible Browsers:</h3>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Chromium-%E2%88%9A-green?style=for-the-badge">
   <img src="https://img.shields.io/badge/Chrome-%E2%88%9A-greem?style=for-the-badge">
   <img src="https://img.shields.io/badge/Edge-%E2%88%9A-green?style=for-the-badge">
@@ -13,9 +23,11 @@ Personal Browser Sidebar Extension
   <img src="https://img.shields.io/badge/Firefox-%C3%97-red?style=for-the-badge">
   <img src="https://img.shields.io/badge/etc.-white?style=for-the-badge">
 </p>
-<h3> Compatible Local Applications:</h3> 
-<p>
-  <img src="https://img.shields.io/badge/Ollama GUI-Fully Compatibly-brightgreen">
+
+<h3 align="center"> Compatible Local Applications:</h3> 
+
+<p align="center">
+    <img src="https://img.shields.io/badge/Ollama GUI-Fully Compatibly-brightgreen">
   <img src="https://img.shields.io/badge/LM Studio-Fully Compatibly-brightgreen">
   <img src="https://img.shields.io/badge/GPT4All-Fully Compatibly-brightgreen">
   <img src="https://img.shields.io/badge/Cherry Studio-Fully Compatibly-brightgreen">
@@ -27,8 +39,10 @@ Personal Browser Sidebar Extension
   <img src="https://img.shields.io/badge/Local AI-Non Compatibly-red">
   <img src="https://img.shields.io/badge/etc.-white">
 </p>
-<h3> Compatible Cloud Services:</h3> 
-<p>
+
+<h3 align="center"> Compatible Cloud Services:</h3> 
+
+<p align="center">
   <img src="https://img.shields.io/badge/Google Gemini-Fully Compatibly-brightgreen?style=for-the-badge">
   <img src="https://img.shields.io/badge/Meta Muse-Partial Compatibly-yellow?style=for-the-badge">
   <img src="https://img.shields.io/badge/xAI Grok-Partial Compatibly-yellow?style=for-the-badge">
