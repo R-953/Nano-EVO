@@ -11,6 +11,7 @@ Personal Browser Sidebar Extension
   <a href="../README.md">English</a> •  
   <a href="../README_fr.md">Français</a> • 
   <a href="../README_ja.md">日本語</a> • 
+  <a href="../README_zh-Hans.md">简体中文</a> • 
   <a href="../README_zh-Hant.md">繁體中文</a> • 
 </p>
 
