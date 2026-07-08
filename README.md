@@ -1,13 +1,16 @@
 # Nano-EVO
 
-Personal Browser Sidebar Extension
+<p align="center">
+    <img src="https://github.com/R-953/Nano-EVO/blob/main/Extension/icon.jpg">
+</p>
 
-## Written in JavaScript, this extension adds a native browser sidebar while supporting both local LLMs and the Gemini cloud service.
+Personal Browser Sidebar Extension
+## Written in JavaScript, adds a native browser sidebar, supporting both local large models and Gemini cloud services
 
 <p align="center">
+  <a href="../README.md">English</a> •  
   <a href="../README_fr.md">Français</a> • 
   <a href="../README_ja.md">日本語</a> • 
-  <a href="../README_zh_Hans.md">简体中文</a> • 
   <a href="../README_zh-Hant.md">繁體中文</a> • 
 </p>
 
@@ -55,29 +58,46 @@ Personal Browser Sidebar Extension
   <img src="https://img.shields.io/badge/etc.-white?style=for-the-badge">
 </p>
 
-## Detailed Description
+## Features
 
 ### Local Mode
-- Supports **Local Mode** and **modifying proxy ports**, with **real-time display of specific model parameters** in the bottom-left corner, including **model name**, **version number**, and **parameters**;
-- Supports opening the sidebar via the **context menu** (right-click) in the browser, or by **clicking the extension icon**; **clicking it again** closes the sidebar;
-- Supports **locally deployed** Large Language Models (LLMs), which require **running and sideloading** the model, opening the **loopback address port** (localhost), and enabling **local API services** and **Cross-Origin Resource Sharing (CORS)**;
-- Supports **text selection translation** into multiple languages. By default, it currently translates into **Simplified Chinese**, **American English**, **Canadian French**, and **Japanese**. You can modify the prompts in the JS file to add or remove languages output by the model during translation;
-- Supports **webpage summarization** of the current page. You can **ask questions** about the current webpage in the input box, or **leave it blank and send directly**. If the input is empty, the LLM will **automatically extract** the main content of the current webpage and **concisely summarize** its outline;
-- Supports **exporting chat history** to *Markdown* format and features an **incognito/self-destruct (burn-after-reading)** function. When enabled, closing the sidebar will **automatically clear all current chat history**. By default, closing the sidebar will not **automatically delete the chat history**, though you can still choose to delete it manually;
-- Supports file input for **certain formats**, which also depends on the **local LLM model**. If using a **text-only model**, image inputs will not be accepted. It is highly recommended to prioritize sideloading **multimodal LLMs** that support image input, although currently only **plain text format** file input is supported.
+- Supports **locally deployed** large language models;
+- Supports **Local Mode** and **modifying proxy ports**, and displays **specific model parameters in real-time** in the bottom left corner, including **model name**, **version number**, and **parameters**;
+- Supports opening the sidebar in the browser via the **right-click menu**, or by **clicking the extension**, and **clicking again** to close it;
+> Requires opening the **loopback address port** after **running and sideloading** the model, and enabling **local API services** and **Cross-Origin Resource Sharing (CORS)**;
+- Supports **select-to-translate** into multiple languages. Currently defaults to **Simplified Chinese**, **American English**, **Canadian French**, and **Japanese**;
+> Prompts can be modified in the JS file to add or remove languages output by the model during translation;
+- Supports **webpage summarization** of the current page;
+> You can **ask questions** about the current webpage in the input box, or **send it blank**. When the input is empty, the model will **automatically extract** the main content of the current webpage and **concisely summarize** its outline;
+- Supports **exporting chat logs** to *Markdown* format, and a **burn-after-reading** feature;
+> When enabled, closing the sidebar will **automatically clear all current chat logs**. By default, closing the sidebar does not **automatically delete the current chat logs**, though you can choose to delete them manually;
+- Supports **partial format** file inputs;
+> This also depends on the **local model type**: **Text-only models** cannot accept image inputs. It is recommended to prioritize sideloading **multimodal models** that support image input, although currently only **plain text format** file inputs are supported.
+- Supports **Text-to-Speech (TTS)** functionality, supporting reading out **model outputs** in the chat and summary interfaces, and reading out both **user inputs** and **model outputs** in the translation interface. Currently only supports **Simplified Chinese**, **American English**, **Canadian French**, and **Japanese**.
+> When using *Chromium* browsers other than *Brave*, the browser will call *Google Network Voices* by default for reading. Since the *Brave* browser **removes** this service by default, the four language packs must be **fully deployed** locally on the computer to support the other three languages besides **American English**.
   
 ### Cloud Mode
-- Supports calling **select cloud models** via *API Key*. You will need to generate a valid API key. Currently, only *Google Gemini* is supported. Models called via *API Key* include, but are not limited to, *Google Gemini 3.1 Flash Lite* and *Google Gemini 3.5 Flash*. Currently, only these two are adapted. You can modify the parameters in the API URL within the JS file to use other models, including but not limited to *Google Gemini 3.1 Pro*. **[This page](https://ai.google.dev/gemini-api/docs/rate-limits)** shows all supported models;
-- Taking *Google Gemini* as an example, you need to log into your account in *[Google AI Studio](https://aistudio.google.com)*, click *Get API Key* in the bottom-left corner, click **Create API key** in the top-right corner, complete the steps to **name your project** and **set up billing information**, and then copy and paste the *API Key* into the input box under the model settings;
-- Supports **text selection translation** into multiple languages. By default, it currently translates into **Simplified Chinese**, **American English**, **Canadian French**, and **Japanese**. You can modify the prompts in the JS file to add or remove languages output during translation;
-- Supports **webpage summarization** of the current page. You can **ask questions** about the current webpage in the input box, or **leave it blank and send directly**. If the input is empty, the LLM will **automatically extract** the main content of the current webpage and **concisely summarize** its outline;
-- Supports **exporting chat history** 到 *Markdown* format and features an **incognito/self-destruct (burn-after-reading)** function. When enabled, closing the sidebar will **automatically clear all current chat history**. By default, closing the sidebar will not **automatically delete the chat history**, though you can still choose to delete it manually;
-- Supports file input for **certain formats**, which also depends on the **cloud LLM model**. If using a **text-only model**, image inputs will not be accepted. It is highly recommended to prioritize sideloading **multimodal LLMs** that support image input, although currently only **plain text format** file input is supported.
-
-## 安装
+- Supports calling **selected cloud models** via *API Key*;
 > [!NOTE]
-> This extension currently only supports manual installation by **loading unpacked extensions** or **importing a zip archive**.
-<p> 
+> A valid API key needs to be generated. Currently, only *Google Gemini* is supported. Models called via *API Key* include but are not limited to *Google Gemini 3.1 Flash Lite* and *Google Gemini 3.5 Flash*. Currently, only these two are adapted. You can modify the parameters in the call link in the JS file to use models including but not limited to *Google Gemini 3.1 Pro*. **[This page](https://ai.google.dev/gemini-api/docs/rate-limits)** shows all supported models;
+
+> [!IMPORTANT]
+> Taking *Google Gemini* as an example, you need to log into your account in *[Google AI Studio](https://aistudio.google.com)*, click *Get API Key* in the bottom left, and **Create API key** in the top right. After completing **Name the project** and **Set up billing**, you can copy the *API Key* and paste it into the input box under the model;
+- Supports **select-to-translate** into multiple languages. Currently defaults to **Simplified Chinese**, **American English**, **Canadian French**, and **Japanese**;
+> Prompts can be modified in the JS file to add or remove languages output during translation;
+- Supports **webpage summarization** of the current page;
+> You can **ask questions** about the current webpage in the input box, or **send it blank**. When the input is empty, the model will **automatically extract** the main content of the current webpage and **concisely summarize** its outline;
+- Supports **exporting chat logs** to *Markdown* format, and a **burn-after-reading** feature;
+> When enabled, closing the sidebar will **automatically clear all current chat logs**. By default, closing the sidebar does not **automatically delete the current chat logs**, though you can choose to delete them manually;
+- Supports **partial format** file inputs;
+> This also depends on the **cloud model type**: **Text-only models** cannot accept image inputs. It is recommended to prioritize sideloading **multimodal models** that support image input, although currently only **plain text format** file inputs are supported.
+- Supports **Text-to-Speech (TTS)** functionality, supporting reading out **model outputs** in the chat and summary interfaces, and reading out both **user inputs** and **model outputs** in the translation interface. Currently only supports **Simplified Chinese**, **American English**, **Canadian French**, and **Japanese**.
+> When using *Chromium* browsers other than *Brave*, the browser will call *Google Network Voices* by default for reading. Since the *Brave* browser **removes** this service by default, the four language packs must be **fully deployed** locally on the computer to support the other three languages besides **American English**.
+
+## Installation Method
+> [!IMPORTANT]
+> This extension currently only supports manual installation by **loading an unpacked extension** and **importing a ZIP file**.
+<p align="center">
   <img src="https://img.shields.io/badge/Chrome Web Store-%C3%97-red?">
   <img src="https://img.shields.io/badge/Edge Addons-%C3%97-red?">
   <img src="https://img.shields.io/badge/Firefox Addons-%C3%97-red?">
@@ -86,41 +106,41 @@ Personal Browser Sidebar Extension
 
 ## Disclaimer
 
-### Please note: This project is intended for personal testing and coding study only.
-### Please note: This project is licensed under the [MIT License](https://github.com/R-953/Nano-EVO/blob/main/LICENSE). Licensees must include the above copyright notice and this permission notice in all copies or substantial portions of the Software. Running this project as a licensee or user is deemed equivalent to having fully and thoroughly read this disclaimer, the original MIT License, and the privacy policies and disclaimers of the respective cloud service providers.
-### Please note: This project will not read or execute any local files other than those strictly required to run the project, except for:
-- Code essential for running this project
-- LLM files sideloaded on your local device
-- Files uploaded during chats with the LLM
-- Files exported from chats with the LLM
-> All data generated by this project is stored locally within your browser;
-> Furthermore, this project does not store, upload, or modify any data related to local or cloud LLMs, including but not limited to: chat history, translation history, webpage summaries, *API Keys*, etc.
+### Please note that this project is intended for personal testing and learning purposes.
+### Please note that this project complies with the [MIT License](https://github.com/R-953/Nano-EVO/blob/main/LICENSE). The licensee must include the above copyright notice and this permission notice in all copies or substantial portions of the Software. By running this project, the licensee and user agree that this action is equivalent to having read this statement, the original text of the MIT License, and the privacy terms and disclaimers of the cloud service providers in detail and in their entirety.
+### Please note that this project will not read or execute any local files other than those necessary for the project to run, except:
+- Code necessary for the operation of this project
+- Locally sideloaded large model files on the device
+- Files uploaded during conversations with the large model
+- Files exported during conversations with the large model
+> All data generated by this project should be saved within the browser;
+> This project also will not store, upload, or modify any data related to local or cloud large models, including but not limited to: chat logs, translation history, webpage summaries, *API Keys*, etc.
 > Unless the aforementioned data is manually exported locally or uploaded to the cloud,
-## Any consequences arising from such actions are entirely unrelated to this project. Neither the author nor the cloud service providers assume any liability for any consequences resulting therefrom.
-### Please note: This project does not require any additional permissions to run, except for:
-- Permissions required to run within the browser
-- Permissions required to pin to the toolbar/extension bar
-- Permissions required to access file URLs
-### Please note: The Local Mode of this project provides the capability to access local LLMs offline. Therefore, when using **Local Mode**, you can **completely disconnect** from the internet;
-> Since *Gemini* is a cloud-based AI service provided by *Google LLC*, a stable internet connection is required when using their cloud services via an *API Key* in **Cloud Mode**.
-> Please note: This project has no way of knowing the security and privacy of the cloud LLM outputs before they are transmitted back to this project from the servers. Please refer to *Google LLC*'s privacy policy and terms of service [here](https://policies.google.cn/privacy?hl=zh-CN).
-### This project is not affiliated with any company, brand, trademark, project, or product mentioned in this document. Detailed explanations are as follows:
-- *Ollama GUI* is an open-source project of its respective rights holders, and *Ollama GUI* is a graphical user interface client designed for *Ollama*;
-- *LM Studio* is a registered trademark of *LM Studio*, which is an all-in-one platform for running local LLMs;
-- *GPT4All* is a registered trademark of *Nomic AI*, which is an open-source local LLM platform;
-- *Cherry Studio* is an open-source project by its development team, and *Cherry Studio* is a desktop-class AI multi-model client designed for professional users;
-- *Chatbox* is an open-source project by its development team, and *Chatbox* is a multi-platform desktop AI client and assistant;
-- *AnythingLLM* is a registered trademark of *Mintplex Labs Inc.*, and *AnythingLLM* is a fully-featured, enterprise-grade local knowledge base and AI agent platform;
-- *Ollama* is a registered trademark of *Ollama Inc.*, and *Ollama* is a local LLM execution framework;
-- *vLLM* is a representative project of its open-source community, and *vLLM* is a high-throughput, low-latency LLM serving and inference engine;
-- *llama.cpp* is a representative project of its open-source community, and *llama.cpp* is a lightweight LLM inference framework based on *C/C++*;
-- *Local AI* is a representative project of its open-source community, and *Local AI* is a local, OpenAI-API-compatible AI inference alternative;
-- *Google Gemini* is a registered trademark of *Google LLC*, and *Gemini* is an AI model cloud service provided by *Google LLC*;
-- *Meta Muse* is a registered trademark of *Meta Platforms, Inc.*, and *Meta Muse Spark* is a creative AI-assisted design and interactive tool launched by *Meta*;
-- *xAI Grok* is a registered trademark of *xAI*, and *Grok* is an AI chat assistant with real-time information retrieval capabilities launched by *xAI*;
-- *DeepSeek* is a registered trademark of Hangzhou DeepSeek Artificial Intelligence Technology Co., Ltd., and *DeepSeek* is a series of open-source, high-performance Large Language Models developed by the company;
-- *Alibaba Qwen* is a registered trademark of Alibaba Group, and *Qwen* (Tongyi Qianwen) is a series of large-scale language models launched by Alibaba;
-- *Moonshot Kimi* is a registered trademark of Moonshot AI Technology Co., Ltd., and *Kimi* is an intelligent assistant supporting ultra-long text processing launched by the company;
-- *Anthropic Claude* is a registered trademark of *Anthropic PBC*, and *Claude* is a safe, honest, and high-performance AI language model launched by *Anthropic*;
-- *OpenAI GPT* is a registered trademark of *OpenAI Inc.*, and the *GPT* series represents industry-leading multimodal Large Language Models launched by *OpenAI*;
-- *Z GLM* is a registered trademark of Beijing Zhipu Huazhang Technology Co., Ltd. (Zhipu AI), and *GLM* is a new-generation cognitive LLM series launched by Zhipu AI.
+## The consequences caused by such actions are completely unrelated to this project. The author and the cloud service providing companies do not bear any responsibility for the consequences arising from the use of this project.
+### Please note that the operation of this project does not rely on any additional permissions, except:
+- Permissions required to run in the browser
+- Permissions required to pin to the taskbar
+- Permissions required to access file addresses
+### Please note that the local mode of this project provides the ability to access local large language models offline, so you can completely disconnect from the internet when using local mode;
+> Since *Gemini* is a cloud AI service launched by *Google LLC*, a stable internet connection is required when using the cloud services provided by *Google LLC* via *API Key* in **Cloud Mode**.
+> Please note that this project cannot determine the security and privacy of the cloud model's output before it is sent back to this project via the server in cloud mode. Please refer to *Google LLC*'s privacy policy and disclaimer terms [here](https://policies.google.cn/privacy?hl=en).
+### This project is not affiliated with any company, brand, trademark, project, or product mentioned in this document. Detailed descriptions are as follows:
+- *Ollama GUI* is an open-source project by its respective rights holders, designed as a graphical user interface client for *Ollama*;
+- *LM Studio* is a registered trademark of *LM Studio*, which is a one-stop local large model running platform;
+- *GPT4All* is a registered trademark of *Nomic AI*, an open-source local large model running platform;
+- *Cherry Studio* is an open-source project by its developer team, a desktop-level *AI* multi-model client designed for professional users;
+- *Chatbox* is an open-source project by its developer team, a multi-platform universal *AI* client and smart assistant;
+- *AnythingLLM* is a registered trademark of *Mintplex Labs Inc.*, an enterprise-grade full-featured local knowledge base and *AI* agent platform;
+- *Ollama* is a registered trademark of *Ollama Inc.*, a local large language model running framework;
+- *vLLM* is a representative project of its open-source community, a high-throughput, low-latency large model inference and serving engine;
+- *llama.cpp* is a representative project of its open-source community, a lightweight large model inference framework based on *C/C++*;
+- *Local AI* is a representative project of its open-source community, a local *AI* inference alternative compatible with the *OpenAI API*;
+- *Google Gemini* is a registered trademark of *Google LLC*, an *AI* model cloud service launched by *Google LLC*;
+- *Meta Muse* is a registered trademark of *Meta Platforms, Inc.*, and *Meta Muse Spark* is a creative *AI* design and interactive tool launched by *Meta*;
+- *xAI Grok* is a registered trademark of *xAI*, an *AI* chat assistant with real-time information retrieval capabilities;
+- *DeepSeek* is a registered trademark of Hangzhou DeepSeek Artificial Intelligence Basic Technology Research Co., Ltd., representing a series of open-source high-performance large language models;
+- *Alibaba Qwen* is a registered trademark of Alibaba Group, representing a series of ultra-large-scale language models;
+- *Moonshot Kimi* is a registered trademark of Moonshot AI, a smart assistant supporting ultra-long text processing;
+- *Anthropic Claude* is a registered trademark of *Anthropic PBC*, a secure, honest, and high-performance *AI* language model;
+- *OpenAI GPT* is a registered trademark of *OpenAI Inc.*, with the *GPT* series being industry-leading multimodal large language models;
+- *Z GLM* is a registered trademark of Beijing Zhipu Huazhang Technology Co., Ltd., representing a new generation of cognitive large models.
