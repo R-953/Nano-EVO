@@ -8,7 +8,7 @@ Personal Browser Sidebar Extension
 ## Written in JavaScript, adds a native browser sidebar, supporting both local large models and Gemini cloud services
 
 <p align="center">
-  <a href="https://github.com/R-953/Nano-EVO/blob/829057c776eb7ecbd2dd24c1b9aec0745a611ec5/Instruction/README.md">English</a> •  
+  <a href="../README.md">">English</a> •  
   <a href="https://github.com/R-953/Nano-EVO/blob/829057c776eb7ecbd2dd24c1b9aec0745a611ec5/Instruction/README_fr.md">Français</a> • 
   <a href="https://github.com/R-953/Nano-EVO/blob/829057c776eb7ecbd2dd24c1b9aec0745a611ec5/Instruction/README_ja.md">日本語</a> • 
   <a href="https://github.com/R-953/Nano-EVO/blob/829057c776eb7ecbd2dd24c1b9aec0745a611ec5/Instruction/README_zh-Hans.md">简体中文</a> • 
