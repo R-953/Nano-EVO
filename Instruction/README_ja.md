@@ -8,10 +8,11 @@
 ## Javascriptで記述され、ブラウザのネイティブサイドバーを追加し、ローカルの大規模モデルとGeminiクラウドサービスの両方をサポートします
 
 <p align="center">
-  <a href="../README.md">English</a> •  
-  <a href="../README_fr.md">Français</a> • 
-  <a href="../README_ja.md">日本語</a> • 
-  <a href="../README_zh-Hant.md">繁體中文</a> • 
+  <a href="https://github.com/R-953/Nano-EVO/blob/829057c776eb7ecbd2dd24c1b9aec0745a611ec5/Instruction/README.md">English</a> •  
+  <a href="https://github.com/R-953/Nano-EVO/blob/829057c776eb7ecbd2dd24c1b9aec0745a611ec5/Instruction/README_fr.md">Français</a> • 
+  <a href="https://github.com/R-953/Nano-EVO/blob/829057c776eb7ecbd2dd24c1b9aec0745a611ec5/Instruction/README_ja.md">日本語</a> • 
+  <a href="https://github.com/R-953/Nano-EVO/blob/829057c776eb7ecbd2dd24c1b9aec0745a611ec5/Instruction/README_zh-Hans.md">简体中文</a> • 
+  <a href="https://github.com/R-953/Nano-EVO/blob/829057c776eb7ecbd2dd24c1b9aec0745a611ec5/Instruction/README_zh-Hant.md">繁體中文</a> • 
 </p>
 
 <h3 align="center"> 互換性のあるブラウザ：</h3>
