@@ -8,10 +8,11 @@ Extension de barre latérale de navigateur à usage personnel
 ## Écrit en JavaScript, ajoute une barre latérale native au navigateur, prenant en charge à la fois les grands modèles locaux et les services cloud Gemini
 
 <p align="center">
-  <a href="../README.md">English</a> •  
-  <a href="../README_fr.md">Français</a> • 
-  <a href="../README_ja.md">日本語</a> • 
-  <a href="../README_zh-Hant.md">繁體中文</a> • 
+  <a href="https://github.com/R-953/Nano-EVO/blob/829057c776eb7ecbd2dd24c1b9aec0745a611ec5/Instruction/README.md">English</a> •  
+  <a href="https://github.com/R-953/Nano-EVO/blob/829057c776eb7ecbd2dd24c1b9aec0745a611ec5/Instruction/README_fr.md">Français</a> • 
+  <a href="https://github.com/R-953/Nano-EVO/blob/829057c776eb7ecbd2dd24c1b9aec0745a611ec5/Instruction/README_ja.md">日本語</a> • 
+  <a href="https://github.com/R-953/Nano-EVO/blob/829057c776eb7ecbd2dd24c1b9aec0745a611ec5/Instruction/README_zh-Hans.md">简体中文</a> • 
+  <a href="https://github.com/R-953/Nano-EVO/blob/829057c776eb7ecbd2dd24c1b9aec0745a611ec5/Instruction/README_zh-Hant.md">繁體中文</a> • 
 </p>
 
 <h3 align="center"> Navigateurs Compatibles :</h3>
