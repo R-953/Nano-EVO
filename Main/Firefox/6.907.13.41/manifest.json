@@ -1,0 +1,45 @@
+{
+  "manifest_version": 3,
+  "name": "Nano EVO",
+  "version": "6.907.13.41",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "contextMenus",
+    "menus"
+  ],
+  "host_permissions": [
+    "http://127.0.0.1/*",
+    "http://localhost/*",
+    "https://generativelanguage.googleapis.com/*",
+    "https://api.openai.com/*",
+    "https://api.anthropic.com/*",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "nano-evo@extension.local",
+      "strict_min_version": "109.0"
+    }
+  },
+  "action": { "default_title": "Nano EVO" },
+  "sidebar_action": { 
+    "default_panel": "sidepanel.html",
+    "default_title": "Nano EVO"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["dict/*", "kuromoji.js", "pdf.worker.min.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
