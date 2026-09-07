@@ -5,42 +5,42 @@
 </p>
 
 Personal Browser Sidebar Extension
-## Written in JavaScript, adds a native browser sidebar, supporting both local large models and Gemini cloud services
+## Built with vanilla JavaScript, providing a native browser sidebar with comprehensive support for local sideloaded LLMs and Gemini / OpenAI / Claude cloud APIs across Chromium and Firefox engines
 
 <p align="center">
-  <a href="../README.md">English</a> •  
-  <a href="https://github.com/R-953/Nano-EVO/blob/829057c776eb7ecbd2dd24c1b9aec0745a611ec5/Instruction/README_fr.md">Français</a> • 
-  <a href="https://github.com/R-953/Nano-EVO/blob/829057c776eb7ecbd2dd24c1b9aec0745a611ec5/Instruction/README_ja.md">日本語</a> • 
-  <a href="https://github.com/R-953/Nano-EVO/blob/829057c776eb7ecbd2dd24c1b9aec0745a611ec5/Instruction/README_zh-Hans.md">简体中文</a> • 
-  <a href="https://github.com/R-953/Nano-EVO/blob/829057c776eb7ecbd2dd24c1b9aec0745a611ec5/Instruction/README_zh-Hant.md">繁體中文</a> • 
+  <a href="./README.md">English</a> •  
+  <a href="./Instruction/README_fr.md">Français</a> • 
+  <a href="./Instruction/README_ja.md">日本語</a> • 
+  <a href="./Instruction/README_zh-Hans.md">简体中文</a> • 
+  <a href="./Instruction/README_zh_Hant.md">繁體中文</a> • 
 </p>
 
 <h3 align="center"> Compatible Browsers:</h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Chromium-%E2%88%9A-green?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Chrome-%E2%88%9A-greem?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Chrome-%E2%88%9A-green?style=for-the-badge">
   <img src="https://img.shields.io/badge/Edge-%E2%88%9A-green?style=for-the-badge">
   <img src="https://img.shields.io/badge/Brave-%E2%88%9A-green?style=for-the-badge">
   <img src="https://img.shields.io/badge/Opera-%E2%88%9A-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Firefox-%E2%88%9A-green?style=for-the-badge">
   <img src="https://img.shields.io/badge/Safari-%C3%97-red?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Firefox-%C3%97-red?style=for-the-badge">
   <img src="https://img.shields.io/badge/etc.-white?style=for-the-badge">
 </p>
 
 <h3 align="center"> Compatible Local Applications:</h3> 
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Ollama GUI-Fully Compatibly-brightgreen">
+  <img src="https://img.shields.io/badge/Ollama GUI-Fully Compatibly-brightgreen">
   <img src="https://img.shields.io/badge/LM Studio-Fully Compatibly-brightgreen">
   <img src="https://img.shields.io/badge/GPT4All-Fully Compatibly-brightgreen">
   <img src="https://img.shields.io/badge/Cherry Studio-Fully Compatibly-brightgreen">
   <img src="https://img.shields.io/badge/Chatbox-Fully Compatibly-brightgreen">
   <img src="https://img.shields.io/badge/AnythingLLM-Fully Compatibly-brightgreen">  
-  <img src="https://img.shields.io/badge/Ollama-Partial Compatibly-yellow">
-  <img src="https://img.shields.io/badge/vLLM-Partial Compatibly-yellow">
-  <img src="https://img.shields.io/badge/llama.cpp-Non Compatibly-red">
-  <img src="https://img.shields.io/badge/Local AI-Non Compatibly-red">
+  <img src="https://img.shields.io/badge/Ollama-Fully Compatibly-brightgreen">
+  <img src="https://img.shields.io/badge/vLLM-Fully Compatibly-brightgreen">
+  <img src="https://img.shields.io/badge/Local AI-Fully Compatibly-brightgreen">
+  <img src="https://img.shields.io/badge/llama.cpp-Partial Compatibly-yellow">
   <img src="https://img.shields.io/badge/etc.-white">
 </p>
 
@@ -48,62 +48,72 @@ Personal Browser Sidebar Extension
 
 <p align="center">
   <img src="https://img.shields.io/badge/Google Gemini-Fully Compatibly-brightgreen?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Meta Muse-Partial Compatibly-yellow?style=for-the-badge">
+  <img src="https://img.shields.io/badge/OpenAI GPT-Fully Compatibly-brightgreen?style=for-the-badge">  
+  <img src="https://img.shields.io/badge/Anthropic Claude-Fully Compatibly-brightgreen?style=for-the-badge">
+  <img src="https://img.shields.io/badge/DeepSeek-Fully Compatibly-brightgreen?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Alibaba Qwen-Fully Compatibly-brightgreen?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Moonshot Kimi-Fully Compatibly-brightgreen?style=for-the-badge">
   <img src="https://img.shields.io/badge/xAI Grok-Partial Compatibly-yellow?style=for-the-badge">
-  <img src="https://img.shields.io/badge/DeepSeek-Partial Compatibly-yellow?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Alibaba Qwen-Partial Compatibly-yellow?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Moonshot Kimi-Partial Compatibly-yellow?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Anthropic Claude-Non Compatibly-red?style=for-the-badge">
-  <img src="https://img.shields.io/badge/OpenAI GPT-Non Compatibly-red?style=for-the-badge">  
-  <img src="https://img.shields.io/badge/Z GLM-Non Compatibly-red?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Meta Muse-Partial Compatibly-yellow?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Z GLM-Partial Compatibly-yellow?style=for-the-badge">
   <img src="https://img.shields.io/badge/etc.-white?style=for-the-badge">
 </p>
 
 ## Features
 
 ### Local Mode
-- Supports **locally deployed** large language models;
-- Supports **Local Mode** and **modifying proxy ports**, and displays **specific model parameters in real-time** in the bottom left corner, including **model name**, **version number**, and **parameters**;
-- Supports opening the sidebar in the browser via the **right-click menu**, or by **clicking the extension**, and **clicking again** to close it;
-> Requires opening the **loopback address port** after **running and sideloading** the model, and enabling **local API services** and **Cross-Origin Resource Sharing (CORS)**;
-- Supports **select-to-translate** into multiple languages. Currently defaults to **Simplified Chinese**, **American English**, **Canadian French**, and **Japanese**;
-> Prompts can be modified in the JS file to add or remove languages output by the model during translation;
-- Supports **webpage summarization** of the current page;
-> You can **ask questions** about the current webpage in the input box, or **send it blank**. When the input is empty, the model will **automatically extract** the main content of the current webpage and **concisely summarize** its outline;
-- Supports **exporting chat logs** to *Markdown* format, and a **burn-after-reading** feature;
-> When enabled, closing the sidebar will **automatically clear all current chat logs**. By default, closing the sidebar does not **automatically delete the current chat logs**, though you can choose to delete them manually;
-- Supports **partial format** file inputs;
-> This also depends on the **local model type**: **Text-only models** cannot accept image inputs. It is recommended to prioritize sideloading **multimodal models** that support image input, although currently only **plain text format** file inputs are supported.
-- Supports **Text-to-Speech (TTS)** functionality, supporting reading out **model outputs** in the chat and summary interfaces, and reading out both **user inputs** and **model outputs** in the translation interface. Currently only supports **Simplified Chinese**, **American English**, **Canadian French**, and **Japanese**.
-> When using *Chromium* browsers other than *Brave*, the browser will call *Google Network Voices* by default for reading. Since the *Brave* browser **removes** this service by default, the four language packs must be **fully deployed** locally on the computer to support the other three languages besides **American English**.
-  
+- **Broad Local LLM Compatibility**: Works seamlessly with LM Studio, Ollama, vLLM, AnythingLLM, Chatbox, Cherry Studio, and other local OpenAI-compatible backends;
+- **Automatic Endpoint Formatting**: Automatically appends `/v1` to base URLs (e.g. `http://127.0.0.1:1234` is routed to `/v1/chat/completions`);
+- **Dynamic Model Auto-Detection**: Actively polls `${baseUrl}/models` and displays the currently loaded model ID directly on the bottom-left status badge;
+- **Cross-Browser Sidebar Navigation**: Open the sidebar via the browser right-click context menu or by clicking the extension icon;
+- **Dual Engine Releases**: Independent branches tailored for Chromium (`chrome.sidePanel`) and Firefox (`sidebar_action`);
+- **Select-to-Translate & Webpage Summarization**: Translate highlighted text or summarize the active webpage outline in one click;
+- **Local Japanese Furigana Injection**: Integrated offline Kuromoji tokenizer and dictionary to annotate Japanese kanji with ruby furigana locally without cloud dependencies;
+- **Burn-after-Reading & Markdown Export**: Export chat history to clean Markdown, or toggle ephemeral mode (👻) to wipe logs upon sidebar close;
+- **Text-to-Speech (TTS)**: Native language auto-detection and speech synthesis for Chinese, English, French, and Japanese.
+
 ### Cloud Mode
-- Supports calling **selected cloud models** via *API Key*;
-> [!NOTE]
-> A valid API key needs to be generated. Currently, only *Google Gemini* is supported. Models called via *API Key* include but are not limited to *Google Gemini 3.1 Flash Lite* and *Google Gemini 3.5 Flash*. Currently, only these two are adapted. You can modify the parameters in the call link in the JS file to use models including but not limited to *Google Gemini 3.1 Pro*. **[This page](https://ai.google.dev/gemini-api/docs/rate-limits)** shows all supported models;
+- **Multi-Vendor Cloud API Integration**:
+  - **Google Gemini**: Preserves official `gemini-flash-latest` (Flash) and `gemini-flash-lite-latest` (Flash Lite) with reliable REST endpoints;
+  - **OpenAI**: Native `gpt-4o` and `gpt-4o-mini` support;
+  - **Anthropic Claude**: Native `claude-3-5-sonnet-20240620` and `claude-3-haiku-20240307` support;
+  - **OpenAI-Compatible Providers**: Easily hook up DeepSeek, Qwen, Kimi, and other providers;
+- **Persistent Key Storage**: Each provider's credentials and base endpoints are stored independently in local extension storage.
+
+### Multimodal Documents & Media Input
+- **Zero-Cloud Offline PDF Parsing**: Integrated `pdf.js` worker extracts full text from multi-page PDFs locally in browser memory;
+- **Vision Image Processing**: Supports `.png, .jpg, .jpeg, .webp` images with smart canvas-based proportional downscaling (max 2048px) and auto-formatting into provider-specific vision payloads (Gemini `inlineData`, OpenAI `image_url`, Claude `base64`);
+- **Batch Multi-File Uploads**: Simultaneously upload 2 or more mixed-format documents and images in a single turn;
+- **Drag & Drop + Clipboard Paste (Ctrl+V)**:
+  - Drag files directly from your desktop into the input area with interactive highlight feedback;
+  - Paste screenshots or copied files directly from your clipboard using `Ctrl + V`;
+- **Interactive File Queue**: Real-time progress bars, file sizes, processing status, and individual removal buttons (`✖`).
+
+### Ergonomics & UI Improvements
+- **Keyboard Shortcuts**: Send with **Enter**, insert newline with **Shift + Enter**, protected with `!e.isComposing` against premature triggers during IME composition;
+- **Smart Auto-Scroll Decoupling**:
+  - **Free Browsing**: Scrolling up during streaming immediately suspends forced autoscroll, allowing undisturbed reading of prior output;
+  - **Re-lock to Bottom**: Double-click anywhere on the chat container or scroll back to bottom to re-engage autoscroll tracking.
+
+---
+
+## Installation
 
 > [!IMPORTANT]
-> Taking *Google Gemini* as an example, you need to log into your account in *[Google AI Studio](https://aistudio.google.com)*, click *Get API Key* in the bottom left, and **Create API key** in the top right. After completing **Name the project** and **Set up billing**, you can copy the *API Key* and paste it into the input box under the model;
-- Supports **select-to-translate** into multiple languages. Currently defaults to **Simplified Chinese**, **American English**, **Canadian French**, and **Japanese**;
-> Prompts can be modified in the JS file to add or remove languages output during translation;
-- Supports **webpage summarization** of the current page;
-> You can **ask questions** about the current webpage in the input box, or **send it blank**. When the input is empty, the model will **automatically extract** the main content of the current webpage and **concisely summarize** its outline;
-- Supports **exporting chat logs** to *Markdown* format, and a **burn-after-reading** feature;
-> When enabled, closing the sidebar will **automatically clear all current chat logs**. By default, closing the sidebar does not **automatically delete the current chat logs**, though you can choose to delete them manually;
-- Supports **partial format** file inputs;
-> This also depends on the **cloud model type**: **Text-only models** cannot accept image inputs. It is recommended to prioritize sideloading **multimodal models** that support image input, although currently only **plain text format** file inputs are supported.
-- Supports **Text-to-Speech (TTS)** functionality, supporting reading out **model outputs** in the chat and summary interfaces, and reading out both **user inputs** and **model outputs** in the translation interface. Currently only supports **Simplified Chinese**, **American English**, **Canadian French**, and **Japanese**.
-> When using *Chromium* browsers other than *Brave*, the browser will call *Google Network Voices* by default for reading. Since the *Brave* browser **removes** this service by default, the four language packs must be **fully deployed** locally on the computer to support the other three languages besides **American English**.
+> This extension can be installed manually via **Load Unpacked** or **Load Temporary Add-on**.
 
-## Installation Method
-> [!IMPORTANT]
-> This extension currently only supports manual installation by **loading an unpacked extension** and **importing a ZIP file**.
-<p align="center">
-  <img src="https://img.shields.io/badge/Chrome Web Store-%C3%97-red?">
-  <img src="https://img.shields.io/badge/Edge Addons-%C3%97-red?">
-  <img src="https://img.shields.io/badge/Firefox Addons-%C3%97-red?">
-  <img src="https://img.shields.io/badge/Safari Extension-%C3%97-red?">
-</p>
+### 1. Chromium-Based Browsers (Chrome / Edge / Brave / Opera / Vivaldi)
+1. Navigate to your browser's extension management page (`chrome://extensions` or `edge://extensions`);
+2. Enable **Developer mode** in the top right;
+3. Click **Load unpacked**;
+4. Select the directory: `Main/Chromium/6.907.13.41`.
+
+### 2. Firefox-Based Browsers (Firefox / Floorp / LibreWolf)
+1. Navigate to `about:debugging#/runtime/this-firefox`;
+2. Click **Load Temporary Add-on...**;
+3. Select the file: `Main/Firefox/6.907.13.41/manifest.json`.
+
+---
 
 ## Disclaimer
 
@@ -120,28 +130,25 @@ Personal Browser Sidebar Extension
 ## The consequences caused by such actions are completely unrelated to this project. The author and the cloud service providing companies do not bear any responsibility for the consequences arising from the use of this project.
 ### Please note that the operation of this project does not rely on any additional permissions, except:
 - Permissions required to run in the browser
-- Permissions required to pin to the taskbar
-- Permissions required to access file addresses
+- Permissions required to open the sidebar
+- Permissions required to access local loopback and specified API addresses
 ### Please note that the local mode of this project provides the ability to access local large language models offline, so you can completely disconnect from the internet when using local mode;
-> Since *Gemini* is a cloud AI service launched by *Google LLC*, a stable internet connection is required when using the cloud services provided by *Google LLC* via *API Key* in **Cloud Mode**.
-> Please note that this project cannot determine the security and privacy of the cloud model's output before it is sent back to this project via the server in cloud mode. Please refer to *Google LLC*'s privacy policy and disclaimer terms [here](https://policies.google.cn/privacy?hl=en).
-### This project is not affiliated with any company, brand, trademark, project, or product mentioned in this document. Detailed descriptions are as follows:
-- *Ollama GUI* is an open-source project by its respective rights holders, designed as a graphical user interface client for *Ollama*;
-- *LM Studio* is a registered trademark of *LM Studio*, which is a one-stop local large model running platform;
-- *GPT4All* is a registered trademark of *Nomic AI*, an open-source local large model running platform;
-- *Cherry Studio* is an open-source project by its developer team, a desktop-level *AI* multi-model client designed for professional users;
-- *Chatbox* is an open-source project by its developer team, a multi-platform universal *AI* client and smart assistant;
-- *AnythingLLM* is a registered trademark of *Mintplex Labs Inc.*, an enterprise-grade full-featured local knowledge base and *AI* agent platform;
-- *Ollama* is a registered trademark of *Ollama Inc.*, a local large language model running framework;
-- *vLLM* is a representative project of its open-source community, a high-throughput, low-latency large model inference and serving engine;
-- *llama.cpp* is a representative project of its open-source community, a lightweight large model inference framework based on *C/C++*;
-- *Local AI* is a representative project of its open-source community, a local *AI* inference alternative compatible with the *OpenAI API*;
-- *Google Gemini* is a registered trademark of *Google LLC*, an *AI* model cloud service launched by *Google LLC*;
-- *Meta Muse* is a registered trademark of *Meta Platforms, Inc.*, and *Meta Muse Spark* is a creative *AI* design and interactive tool launched by *Meta*;
-- *xAI Grok* is a registered trademark of *xAI*, an *AI* chat assistant with real-time information retrieval capabilities;
-- *DeepSeek* is a registered trademark of Hangzhou DeepSeek Artificial Intelligence Basic Technology Research Co., Ltd., representing a series of open-source high-performance large language models;
-- *Alibaba Qwen* is a registered trademark of Alibaba Group, representing a series of ultra-large-scale language models;
-- *Moonshot Kimi* is a registered trademark of Moonshot AI, a smart assistant supporting ultra-long text processing;
-- *Anthropic Claude* is a registered trademark of *Anthropic PBC*, a secure, honest, and high-performance *AI* language model;
-- *OpenAI GPT* is a registered trademark of *OpenAI Inc.*, with the *GPT* series being industry-leading multimodal large language models;
-- *Z GLM* is a registered trademark of Beijing Zhipu Huazhang Technology Co., Ltd., representing a new generation of cognitive large models.
+> When using cloud services via API keys in Cloud Mode, please refer to the respective privacy policies:
+> - [Google Privacy Policy](https://policies.google.com/privacy)
+> - [OpenAI Privacy Policy](https://openai.com/policies/privacy-policy)
+> - [Anthropic Privacy Policy](https://www.anthropic.com/legal/privacy)
+### This project is not affiliated with any company, brand, trademark, project, or product mentioned in this document:
+- *Ollama GUI* is an open-source project by its respective rights holders;
+- *LM Studio* is a registered trademark of *LM Studio*;
+- *GPT4All* is a registered trademark of *Nomic AI*;
+- *Cherry Studio* is an open-source project by its developer team;
+- *Chatbox* is an open-source project by its developer team;
+- *AnythingLLM* is a registered trademark of *Mintplex Labs Inc.*;
+- *Ollama* is a registered trademark of *Ollama Inc.*;
+- *vLLM* is an open-source high-throughput inference engine;
+- *Google Gemini* is a registered trademark of *Google LLC*;
+- *Anthropic Claude* is a registered trademark of *Anthropic PBC*;
+- *OpenAI GPT* is a registered trademark of *OpenAI Inc.*;
+- *DeepSeek* is a registered trademark of Hangzhou DeepSeek Artificial Intelligence Basic Technology Research Co., Ltd.;
+- *Alibaba Qwen* is a registered trademark of Alibaba Group;
+- *Moonshot Kimi* is a registered trademark of Moonshot AI.
